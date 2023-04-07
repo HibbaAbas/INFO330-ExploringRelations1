@@ -1,3 +1,2 @@
-SELECT first_name, last_name
-FROM persons
-WHERE age = MIN(age);
+SELECT first_name, last_name, MIN(age)
+FROM persons;
